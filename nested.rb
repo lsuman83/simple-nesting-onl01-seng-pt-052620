@@ -106,7 +106,7 @@ def changing_alan
       if name == :alan_kay      
         data.each do |attribute, value|
           if attribute == :known_for
-            value.delete("Object Orientation")
+            value.delete
             value << alans_new_info
           end
         end
