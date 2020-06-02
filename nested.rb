@@ -106,8 +106,8 @@ def changing_alan
       if name == :alan_kay      
         data.each do |attribute, value|
           if attribute == :known_for
-            value.gsub(/a-z/) {|x| alans_new_info}
-            value << alans_new_info
+            value.to_s
+            value.replace (alans_new_info)
           end
         end
           
