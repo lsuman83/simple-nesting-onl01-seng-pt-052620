@@ -105,7 +105,8 @@ def changing_alan
     programmer_hash.each do |name, data|
       if name == :alan_kay      
         data.each do |attribute, value|
-          value.strip! = alans_new_info
+          value.strip!
+          value = alans_new_info
         end
           
       end
