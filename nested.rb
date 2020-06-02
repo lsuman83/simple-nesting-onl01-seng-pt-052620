@@ -104,6 +104,7 @@ def changing_alan
      
     programmer_hash.each do |key, value|
       puts "#{key}, #{value}"
+    end
 end
 
 changing_alan
