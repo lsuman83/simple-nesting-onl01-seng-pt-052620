@@ -134,6 +134,14 @@ def adding_to_dennis
         }
      }
      
-  programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
-
+  programmer_hash.each do |name, data|
+    if name == :dennis_ritchie
+      name.each do |attribute, value|
+        if attribute == :languages
+          value << "Assembly"
+        end
+      end
+    end
+  end
+  
 end
