@@ -106,7 +106,7 @@ def changing_alan
       puts "#{key}, #{value}"
 end
 
-changing_alan
+
 
 def adding_to_dennis
 	programmer_hash = 
