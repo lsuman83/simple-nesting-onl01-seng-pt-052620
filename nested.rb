@@ -105,7 +105,7 @@ def changing_alan
     programmer_hash.each do |name, data|
       if name == :alan_kay      
         data.each do |attribute, value|
-          value.replace "GUI"
+          value = "GUI"
         end
           
       end
