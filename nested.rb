@@ -102,9 +102,11 @@ def changing_alan
      
      alans_new_info = "GUI"
      
-    programmer_hash.each do |key, value|
-      if key == :alan_kay      
-        value.each do |
+    programmer_hash.each do |name, data|
+      if name == :alan_kay      
+        data.each do |attribute, value|
+          return "#{attribute}, #{value}"
+        end
           
       end
     end
