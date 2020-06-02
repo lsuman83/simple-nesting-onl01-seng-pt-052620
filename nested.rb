@@ -103,8 +103,10 @@ def changing_alan
      alans_new_info = "GUI"
      
     programmer_hash.each do |key, value|
-      puts "#{key}, #{value}""
+      puts "#{key}, #{value}"
 end
+
+changing_alan
 
 def adding_to_dennis
 	programmer_hash = 
