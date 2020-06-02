@@ -102,8 +102,8 @@ def changing_alan
      
      alans_new_info = "GUI"
      
-    languages = programmer_hash[:alan_kay][:known_for]
-    languages.replace(alans_new_info)
+    programmer_hash.each do |key, value|
+      puts "#{key}, #{value}""
 end
 
 def adding_to_dennis
