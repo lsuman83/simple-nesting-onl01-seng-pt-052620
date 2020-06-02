@@ -136,7 +136,7 @@ def adding_to_dennis
      
   programmer_hash.each do |name, data|
     if name == :dennis_ritchie
-      name.each do |attribute, value|
+      data.each do |attribute, value|
         if attribute == :languages
           value << "Assembly"
         end
