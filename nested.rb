@@ -104,7 +104,8 @@ def changing_alan
      
     programmer_hash.each do |key, value|
       if key == :alan_kay      
-        return "#{key}, #{value}"
+        if value == :known_for
+          
       end
     end
 end
