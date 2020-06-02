@@ -106,7 +106,7 @@ def changing_alan
       if name == :alan_kay      
         data.each do |attribute, value|
           if attribute == :known_for
-            value.gsub(/a-z/) {|x| "Object Orientation"}
+            value.gsub(/a-z/) {|x| alans_new_info}
             value << alans_new_info
           end
         end
